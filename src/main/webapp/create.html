@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add product</title>
+</head>
+<body>
+<form action="create" method="post">
+    <h3>Add a new product</h3>
+    Name: <input type="text" name="name"/>
+    Price: <input type="number" name="price"/>
+    Status: <select size="1" name="status">
+    <option disabled>Choose status</option>
+    <option value="Out of stock">Out of stock</option>
+    <option value="In stock">In stock</option>
+    <option value="Running low">Running low</option>
+</select>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
